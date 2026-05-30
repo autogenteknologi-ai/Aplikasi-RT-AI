@@ -1,0 +1,15 @@
+{
+  "name": "rukunapp-relay",
+  "version": "22.0.0",
+  "description": "Server relay realtime + hosting untuk RukunApp (Cluster Puri Mandar RT 012)",
+  "main": "relay-server.js",
+  "scripts": {
+    "start": "node relay-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "gun": "^0.2020.1240"
+  }
+}
